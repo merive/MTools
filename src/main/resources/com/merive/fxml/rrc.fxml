@@ -18,7 +18,7 @@
    <Pane layoutY="346.0" prefHeight="60.0" prefWidth="600.0" style="-fx-background-color: #BBE1FA;">
       <Label alignment="CENTER" layoutX="-2.0" layoutY="-1.0" prefHeight="66.0" prefWidth="85.0" text="RRC" textFill="#1b262c">
          <font>
-            <Font name="Tahoma" size="24.0" />
+            <Font name="Roboto" size="24.0" />
          </font>
       </Label>
       <Spinner fx:id="key" layoutX="180.0" layoutY="18.0" prefHeight="25.0" prefWidth="120.0" style="-fx-border-color: #3282b8; color: #1b262c;" stylesheets="@../css/rrc.css">

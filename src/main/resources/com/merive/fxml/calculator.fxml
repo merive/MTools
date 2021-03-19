@@ -8,91 +8,91 @@
    <Pane prefHeight="340.0" prefWidth="300.0" style="-fx-background-color: #1B262C;">
       <TextField fx:id="textField" accessibleRole="TEXT" alignment="CENTER_RIGHT" editable="false" layoutX="19.0" layoutY="16.0" prefHeight="50.0" prefWidth="262.0" style="-fx-background-color: #BBE1FA; -fx-border-color: #0f4c75; -fx-border-width: 3px;">
          <font>
-            <Font name="Tahoma" size="14.0" />
+            <Font name="Roboto" size="14.0" />
          </font>
       </TextField>
       <Button layoutX="88.0" layoutY="279.0" mnemonicParsing="false" onAction="#clickClear" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #BBE1FA; -fx-border-color: #0f4c75; -fx-border-width: 3px;" text="C" textFill="#1b262c">
          <font>
-            <Font name="Tahoma" size="14.0" />
+            <Font name="Roboto" size="14.0" />
          </font>
       </Button>
 
       <Button layoutX="21.0" layoutY="84.0" mnemonicParsing="false" onAction="#click7" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #BBE1FA; -fx-border-color: #0f4c75; -fx-border-width: 3px;" text="7" textFill="#1b262c">
          <font>
-            <Font name="Tahoma" size="14.0" />
+            <Font name="Roboto" size="14.0" />
          </font>
       </Button>
       <Button layoutX="88.0" layoutY="84.0" mnemonicParsing="false" onAction="#click8" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #BBE1FA; -fx-border-color: #0f4c75; -fx-border-width: 3px;" text="8" textFill="#1b262c">
          <font>
-            <Font name="Tahoma" size="14.0" />
+            <Font name="Roboto" size="14.0" />
          </font>
       </Button>
       <Button layoutX="157.0" layoutY="84.0" mnemonicParsing="false" onAction="#click9" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #BBE1FA; -fx-border-color: #0f4c75; -fx-border-width: 3px;" text="9" textFill="#1b262c">
          <font>
-            <Font name="Tahoma" size="14.0" />
+            <Font name="Roboto" size="14.0" />
          </font>
       </Button>
       <Button layoutX="228.0" layoutY="84.0" mnemonicParsing="false" onAction="#clickDivision" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #BBE1FA; -fx-border-color: #0f4c75; -fx-border-width: 3px;" text="/" textFill="#1b262c">
          <font>
-            <Font name="Tahoma" size="14.0" />
+            <Font name="Roboto" size="14.0" />
          </font>
       </Button>
 
       <Button layoutX="21.0" layoutY="149.0" mnemonicParsing="false" onAction="#click4" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #BBE1FA; -fx-border-color: #0f4c75; -fx-border-width: 3px;" text="4" textFill="#1b262c">
          <font>
-            <Font name="Tahoma" size="14.0" />
+            <Font name="Roboto" size="14.0" />
          </font>
       </Button>
       <Button layoutX="88.0" layoutY="149.0" mnemonicParsing="false" onAction="#click5" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #BBE1FA; -fx-border-color: #0f4c75; -fx-border-width: 3px;" text="5" textFill="#1b262c">
          <font>
-            <Font name="Tahoma" size="14.0" />
+            <Font name="Roboto" size="14.0" />
          </font>
       </Button>
       <Button layoutX="157.0" layoutY="149.0" mnemonicParsing="false" onAction="#click6" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #BBE1FA; -fx-border-color: #0f4c75; -fx-border-width: 3px;" text="6" textFill="#1b262c">
          <font>
-            <Font name="Tahoma" size="14.0" />
+            <Font name="Roboto" size="14.0" />
          </font>
       </Button>
       <Button layoutX="228.0" layoutY="149.0" mnemonicParsing="false" onAction="#clickMulti" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #BBE1FA; -fx-border-color: #0f4c75; -fx-border-width: 3px;" text="*" textFill="#1b262c">
          <font>
-            <Font name="Tahoma" size="14.0" />
+            <Font name="Roboto" size="14.0" />
          </font>
       </Button>
 
       <Button layoutX="21.0" layoutY="214.0" mnemonicParsing="false" onAction="#click1" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #BBE1FA; -fx-border-color: #0f4c75; -fx-border-width: 3px;" text="1" textFill="#1b262c">
          <font>
-            <Font name="Tahoma" size="14.0" />
+            <Font name="Roboto" size="14.0" />
          </font>
       </Button>
       <Button layoutX="88.0" layoutY="214.0" mnemonicParsing="false" onAction="#click2" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #BBE1FA; -fx-border-color: #0f4c75; -fx-border-width: 3px;" text="2" textFill="#1b262c">
          <font>
-            <Font name="Tahoma" size="14.0" />
+            <Font name="Roboto" size="14.0" />
          </font>
       </Button>
       <Button layoutX="157.0" layoutY="214.0" mnemonicParsing="false" onAction="#click3" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #BBE1FA; -fx-border-color: #0f4c75; -fx-border-width: 3px;" text="3" textFill="#1b262c">
          <font>
-            <Font name="Tahoma" size="14.0" />
+            <Font name="Roboto" size="14.0" />
          </font>
       </Button>
       <Button layoutX="228.0" layoutY="214.0" mnemonicParsing="false" onAction="#clickMinus" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #BBE1FA; -fx-border-color: #0f4c75; -fx-border-width: 3px;" text="-" textFill="#1b262c">
          <font>
-            <Font name="Tahoma" size="14.0" />
+            <Font name="Roboto" size="14.0" />
          </font>
       </Button>
 
       <Button layoutX="21.0" layoutY="279.0" mnemonicParsing="false" onAction="#click0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #BBE1FA; -fx-border-color: #0f4c75; -fx-border-width: 3px;" text="0" textFill="#1b262c">
          <font>
-            <Font name="Tahoma" size="14.0" />
+            <Font name="Roboto" size="14.0" />
          </font>
       </Button>
       <Button layoutX="157.0" layoutY="279.0" mnemonicParsing="false" onAction="#clickEqually" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #BBE1FA; -fx-border-color: #0f4c75; -fx-border-width: 3px;" text="=" textFill="#1b262c">
          <font>
-            <Font name="Tahoma" size="14.0" />
+            <Font name="Roboto" size="14.0" />
          </font>
       </Button>
       <Button layoutX="228.0" layoutY="279.0" mnemonicParsing="false" onAction="#clickPlus" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #BBE1FA; -fx-border-color: #0f4c75; -fx-border-width: 3px;" text="+" textFill="#1b262c">
          <font>
-            <Font name="Tahoma" size="14.0" />
+            <Font name="Roboto" size="14.0" />
          </font>
       </Button>
    </Pane>

@@ -17,6 +17,7 @@ ____
 You should install:
 * _[Java](https://developer.oracle.com/java/)_
 * _[Gradle](https://gradle.org/)_
+And you should add Roboto font (In *res/font*) for the best experience.
 ____
 #### _Using:_
 1. Open _Command Line or Terminal_

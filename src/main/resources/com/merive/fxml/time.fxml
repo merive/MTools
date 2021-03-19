@@ -8,7 +8,7 @@
     <Pane prefHeight="125.0" prefWidth="600.0" style="-fx-background-color: #1B262C;">
         <Label fx:id="time" alignment="CENTER" layoutY="48.0" prefHeight="21.0" prefWidth="600.0" textFill="#BBE1FA">
            <font>
-               <Font name="Tahoma" size="24.0"/>
+               <Font name="Roboto" size="24.0"/>
            </font>
         </Label>
     </Pane>
