@@ -84,8 +84,6 @@ public class LauncherController implements Initializable {
 
     public void clickNote() {
         selectedApplication = "Note";
-        resetButtons();
-        noteButton.setStyle("-fx-background-color: #3282b8; -fx-border-color: #bbe1fa; -fx-border-width: 4px;");
         resetImage();
         noteImage.setVisible(true);
         label.setText("Selected: Note");
@@ -93,8 +91,6 @@ public class LauncherController implements Initializable {
 
     public void clickCalculator() {
         selectedApplication = "Calculator";
-        resetButtons();
-        calculatorButton.setStyle("-fx-background-color: #3282b8; -fx-border-color: #bbe1fa; -fx-border-width: 4px;");
         resetImage();
         calculatorImage.setVisible(true);
         label.setText("Selected: Calculator");
@@ -102,8 +98,6 @@ public class LauncherController implements Initializable {
 
     public void clickMail() {
         selectedApplication = "Email";
-        resetButtons();
-        mailButton.setStyle("-fx-background-color: #3282b8; -fx-border-color: #bbe1fa; -fx-border-width: 4px;");
         resetImage();
         mailImage.setVisible(true);
         label.setText("Selected: Email");
@@ -111,8 +105,6 @@ public class LauncherController implements Initializable {
 
     public void clickWatch() {
         selectedApplication = "Time";
-        resetButtons();
-        watchButton.setStyle("-fx-background-color: #3282b8; -fx-border-color: #bbe1fa; -fx-border-width: 4px;");
         resetImage();
         watchImage.setVisible(true);
         label.setText("Selected: Time");
@@ -120,8 +112,6 @@ public class LauncherController implements Initializable {
 
     public void clickRRC() {
         selectedApplication = "RRC";
-        resetButtons();
-        RRCButton.setStyle("-fx-background-color: #3282b8; -fx-border-color: #bbe1fa; -fx-border-width: 4px;");
         resetImage();
         RRCImage.setVisible(true);
         label.setText("Selected: RRC");
@@ -131,13 +121,6 @@ public class LauncherController implements Initializable {
         System.exit(0);
     }
 
-    public void resetButtons() {
-        noteButton.setStyle("-fx-background-color: #bbe1fa; -fx-border-color: #0f4c75; -fx-border-width: 4px;");
-        calculatorButton.setStyle("-fx-background-color: #bbe1fa; -fx-border-color: #0f4c75; -fx-border-width: 4px;");
-        mailButton.setStyle("-fx-background-color: #bbe1fa; -fx-border-color: #0f4c75; -fx-border-width: 4px;");
-        watchButton.setStyle("-fx-background-color: #bbe1fa; -fx-border-color: #0f4c75; -fx-border-width: 4px;");
-        RRCButton.setStyle("-fx-background-color: #bbe1fa; -fx-border-color: #0f4c75; -fx-border-width: 4px;");
-    }
 
     public void resetImage() {
         launcherImage.setVisible(false);

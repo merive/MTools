@@ -10,6 +10,10 @@ import javafx.stage.Stage;
 
 public class Launcher extends Application {
 
+    public static void main(String[] args) {
+        launch(args);
+    }
+
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("fxml/launcher.fxml"));
@@ -21,10 +25,6 @@ public class Launcher extends Application {
         stage.getIcons().add(new Image(getClass().getResource("icons/launcher_icon.png").toString()));
         stage.setResizable(false);
         stage.show();
-    }
-
-    public static void main(String[] args) {
-        launch(args);
     }
 
 }
