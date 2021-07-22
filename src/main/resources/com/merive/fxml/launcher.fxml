@@ -24,7 +24,7 @@
         <ImageView fx:id="calculatorImage" fitHeight="200.0" fitWidth="200.0" layoutX="400.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true" visible="false">
             <Image url="@../icons/calculator_icon.png" />
         </ImageView>
-        <ImageView fx:id="mailImage" fitHeight="200.0" fitWidth="200.0" layoutX="400.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true" visible="false">
+        <ImageView fx:id="emailImage" fitHeight="200.0" fitWidth="200.0" layoutX="400.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true" visible="false">
             <Image url="@../icons/email_icon.png" />
         </ImageView>
         <ImageView fx:id="watchImage" fitHeight="200.0" fitWidth="200.0" layoutX="400.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true" visible="false">
@@ -50,7 +50,7 @@
                 <Font name="Roboto Light" size="24.0" />
             </font>
         </Button>
-        <Button fx:id="mailButton" alignment="CENTER" contentDisplay="CENTER" layoutX="13.0" layoutY="179.0" mnemonicParsing="false" onAction="#clickMail" prefHeight="62.0" prefWidth="174.0" style="-fx-background-color: #1a2a33; -fx-border-color: #bbe1fa; -fx-border-width: 4px;" stylesheets="@../css/launcher.css" text="Mail" textFill="#bbe1fa">
+        <Button fx:id="emailButton" alignment="CENTER" contentDisplay="CENTER" layoutX="13.0" layoutY="179.0" mnemonicParsing="false" onAction="#clickEmail" prefHeight="62.0" prefWidth="174.0" style="-fx-background-color: #1a2a33; -fx-border-color: #bbe1fa; -fx-border-width: 4px;" stylesheets="@../css/launcher.css" text="Email" textFill="#bbe1fa">
             <font>
                 <Font name="Roboto Light" size="24.0" />
             </font>

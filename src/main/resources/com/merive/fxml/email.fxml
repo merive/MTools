@@ -4,45 +4,46 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.merive.EmailController">
-   <Pane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1B262C;">
-      <TextArea fx:id="message" layoutX="22.0" layoutY="119.0" prefHeight="231.0" prefWidth="557.0" styleClass="text-area" stylesheets="@../css/email.css" wrapText="true">
-         <font>
-            <Font name="Roboto" size="14.0" />
-         </font></TextArea>
-      <Button layoutX="496.0" layoutY="361.0" mnemonicParsing="false" onAction="#send" prefHeight="28.0" prefWidth="83.0" style="-fx-background-color: #BBE1FA;" text="Send" textFill="#1b262c">
-         <font>
-            <Font name="Roboto" size="14.0" />
-         </font>
-      </Button>
-      <TextField fx:id="title" layoutX="22.0" layoutY="72.0" prefHeight="36.0" prefWidth="557.0" promptText="Title" style="-fx-background-color: #BBE1FA;">
-         <font>
-            <Font name="Roboto" size="14.0" />
-         </font>
-      </TextField>
-      <TextField fx:id="to" layoutX="22.0" layoutY="361.0" prefHeight="28.0" prefWidth="460.0" promptText="To" style="-fx-background-color: #BBE1FA;">
-         <font>
-            <Font name="Roboto" size="14.0" />
-         </font>
-      </TextField>
-   </Pane>
-   <Pane prefHeight="59.0" prefWidth="600.0" style="-fx-background-color: #1B262C; -fx-border-color: #BBE1FA; -fx-border-width: 3px;">
-      <Label alignment="CENTER" layoutX="-1.0" layoutY="-1.0" prefHeight="66.0" prefWidth="104.0" text="Email" textFill="#bbe1fa">
-         <font>
-            <Font name="Roboto" size="24.0" />
-         </font>
-      </Label>
-      <Label layoutX="130.0" layoutY="24.0" text="Login" textFill="#bbe1fa">
-         <font>
-            <Font name="Roboto" size="14.0" />
-         </font>
-      </Label>
-      <Label layoutX="350.0" layoutY="24.0" text="Password" textFill="#bbe1fa">
-         <font>
-            <Font name="Roboto" size="14.0" />
-         </font>
-      </Label>
-      <TextField fx:id="login" layoutX="180.0" layoutY="23.0" style="-fx-background-color: #BBE1FA;" />
-      <PasswordField fx:id="password" layoutX="430.0" layoutY="23.0" style="-fx-background-color: #BBE1FA;" />
-   </Pane>
+<AnchorPane prefHeight="415.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.merive.EmailController">
+    <Pane prefHeight="415.0" prefWidth="600.0" style="-fx-background-color: #1B262C; -fx-border-color: #bbe1fa; -fx-border-width: 4px;">
+        <TextArea fx:id="message" layoutX="22.0" layoutY="119.0" prefHeight="231.0" prefWidth="557.0" style="-fx-background-color: #1B262C; -fx-border-color: #bbe1fa; -fx-border-width: 4px; -fx-text-fill: #bbe1fa;" styleClass="text-area" stylesheets="@../css/email.css" wrapText="true">
+            <font>
+                <Font name="Roboto Light" size="14.0" />
+            </font>
+        </TextArea>
+        <Button layoutX="496.0" layoutY="361.0" mnemonicParsing="false" onAction="#send" prefHeight="28.0" prefWidth="83.0" style="-fx-background-color: #1B262C; -fx-border-color: #bbe1fa; -fx-border-width: 4px; -fx-text-fill: #bbe1fa;" stylesheets="@../css/email.css" text="Send" textFill="#1b262c">
+            <font>
+                <Font name="Roboto Light" size="14.0" />
+            </font>
+        </Button>
+        <TextField fx:id="title" layoutX="22.0" layoutY="72.0" prefHeight="36.0" prefWidth="557.0" promptText="Title" style="-fx-background-color: #1B262C; -fx-border-color: #bbe1fa; -fx-border-width: 4px; -fx-text-fill: #bbe1fa;">
+            <font>
+                <Font name="Roboto Light" size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="to" layoutX="22.0" layoutY="361.0" prefHeight="38.0" prefWidth="465.0" promptText="To" style="-fx-background-color: #1B262C; -fx-border-color: #bbe1fa; -fx-border-width: 4px; -fx-text-fill: #bbe1fa;">
+            <font>
+                <Font name="Roboto Light" size="14.0" />
+            </font>
+        </TextField>
+    </Pane>
+    <Pane prefHeight="59.0" prefWidth="600.0" style="-fx-background-color: #1B262C; -fx-border-color: #bbe1fa; -fx-border-width: 4px;">
+        <Label alignment="CENTER" layoutX="3.0" prefHeight="59.0" prefWidth="92.0" text="Email" textFill="#bbe1fa">
+            <font>
+                <Font name="Roboto Light" size="24.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="99.0" layoutY="2.0" prefHeight="59.0" prefWidth="60.0" text="Login" textFill="#bbe1fa">
+            <font>
+                <Font name="Roboto Light" size="16.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="340.0" layoutY="2.0" prefHeight="59.0" prefWidth="83.0" text="Password" textFill="#bbe1fa">
+            <font>
+                <Font name="Roboto Light" size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="login" layoutX="170.0" layoutY="15.0" style="-fx-background-color: #1B262C; -fx-border-color: #bbe1fa; -fx-border-width: 4px; -fx-text-fill: #bbe1fa;" />
+        <PasswordField fx:id="password" layoutX="429.0" layoutY="15.0" style="-fx-background-color: #1B262C; -fx-border-color: #bbe1fa; -fx-border-width: 4px; -fx-text-fill: #bbe1fa;" />
+    </Pane>
 </AnchorPane>

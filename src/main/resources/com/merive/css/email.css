@@ -1,7 +1,11 @@
 .text-area .content {
-    -fx-background-color: #BBE1FA;
+    -fx-background-color:  #1B262C;
 }
 
 .text-area {
-    -fx-background-color: #BBE1FA;
+    -fx-background-color:  #1B262C;
+}
+
+.button:hover {
+    -fx-effect: dropshadow(gaussian, #bbe1fa, 7, 0.25, 0.0, 0.0);
 }

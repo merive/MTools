@@ -18,10 +18,10 @@ public class LauncherController implements Initializable {
     Label label;
 
     @FXML
-    Button startButton, noteButton, calculatorButton, mailButton, watchButton, RRCButton, exitButton;
+    Button startButton, noteButton, calculatorButton, emailButton, watchButton, RRCButton, exitButton;
 
     @FXML
-    ImageView launcherImage, noteImage, calculatorImage, mailImage, watchImage, RRCImage;
+    ImageView launcherImage, noteImage, calculatorImage, emailImage, watchImage, RRCImage;
 
     String selectedApplication;
 
@@ -96,10 +96,10 @@ public class LauncherController implements Initializable {
         label.setText("Selected: Calculator");
     }
 
-    public void clickMail() {
+    public void clickEmail() {
         selectedApplication = "Email";
         resetImage();
-        mailImage.setVisible(true);
+        emailImage.setVisible(true);
         label.setText("Selected: Email");
     }
 
@@ -126,7 +126,7 @@ public class LauncherController implements Initializable {
         launcherImage.setVisible(false);
         noteImage.setVisible(false);
         calculatorImage.setVisible(false);
-        mailImage.setVisible(false);
+        emailImage.setVisible(false);
         watchImage.setVisible(false);
         RRCImage.setVisible(false);
     }
