@@ -11,6 +11,40 @@
     -fx-font-family: "Roboto Light";
 }
 
+.text-area > .scroll-pane {
+    -fx-padding: 0;
+}
+
+.scroll-bar {
+    -fx-font-size: 1em;
+}
+
+.scroll-pane > .corner {
+    -fx-background-color: #1a2a33;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical {
+    -fx-background-color: #bbe1fa;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+    -fx-background-color: #1a2a33;
+    -fx-border-color: #1a2a33;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #bbe1fa;
+    -fx-background-radius: 0em;
+}
+
 .button:hover {
     -fx-effect: dropshadow(gaussian, #bbe1fa, 7, 0.25, 0.0, 0.0);
 }
