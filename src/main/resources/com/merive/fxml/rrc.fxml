@@ -65,7 +65,7 @@
         </Button>
         <ImageView fitHeight="33.0" fitWidth="33.0" layoutX="284.0" layoutY="11.0" pickOnBounds="true"
                    preserveRatio="true">
-            <Image url="@../icons/rrc_icon.png"/>
+            <Image url="@../icons/rrc.png"/>
         </ImageView>
         <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="-3.0" prefHeight="62.0"
                prefWidth="74.0" text="RRC" textFill="#bbe1fa">

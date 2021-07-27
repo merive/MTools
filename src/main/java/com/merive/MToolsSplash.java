@@ -29,7 +29,7 @@ public class MToolsSplash extends Application {
 
         stage.setTitle("MTools");
         stage.setScene(scene);
-        stage.getIcons().add(new Image(getClass().getResource("icons/launcher_icon.png").toString()));
+        stage.getIcons().add(new Image(getClass().getResource("icons/launcher.png").toString()));
         stage.setResizable(false);
         stage.show();
 

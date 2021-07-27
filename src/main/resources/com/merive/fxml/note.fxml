@@ -43,7 +43,7 @@
             </font>
         </Button>
         <ImageView fitHeight="33.0" fitWidth="33.0" layoutX="276.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
-            <Image url="@../icons/note_icon.png" />
+            <Image url="@../icons/note.png" />
         </ImageView>
         <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="-3.0" prefHeight="62.0" prefWidth="74.0" text="Note" textFill="#bbe1fa">
             <font>

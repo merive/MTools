@@ -21,7 +21,7 @@ public class Note extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("fxml/note.fxml"));
         stage.initStyle(StageStyle.UNDECORATED);
         stage.setTitle("Note");
-        stage.getIcons().add(new Image(getClass().getResource("icons/note_icon.png").toString()));
+        stage.getIcons().add(new Image(getClass().getResource("icons/note.png").toString()));
         stage.setScene(new Scene(root, 585, 770));
         stage.setResizable(false);
         stage.show();

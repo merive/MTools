@@ -21,7 +21,7 @@ public class Calculator extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("fxml/calculator.fxml"));
         stage.initStyle(StageStyle.UNDECORATED);
         stage.setTitle("Calculator");
-        stage.getIcons().add(new Image(getClass().getResource("icons/calculator_icon.png").toString()));
+        stage.getIcons().add(new Image(getClass().getResource("icons/calculator.png").toString()));
         stage.setScene(new Scene(root, 300, 390));
         stage.setResizable(false);
         stage.show();

@@ -21,7 +21,7 @@ public class RRC extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("fxml/rrc.fxml"));
         stage.initStyle(StageStyle.UNDECORATED);
         stage.setTitle("RRC");
-        stage.getIcons().add(new Image(getClass().getResource("icons/rrc_icon.png").toString()));
+        stage.getIcons().add(new Image(getClass().getResource("icons/rrc.png").toString()));
         stage.setScene(new Scene(root, 600, 455));
         stage.setResizable(false);
         stage.show();

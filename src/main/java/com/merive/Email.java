@@ -21,7 +21,7 @@ public class Email extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("fxml/email.fxml"));
         stage.initStyle(StageStyle.UNDECORATED);
         stage.setTitle("Email");
-        stage.getIcons().add(new Image(getClass().getResource("icons/email_icon.png").toString()));
+        stage.getIcons().add(new Image(getClass().getResource("icons/email.png").toString()));
         stage.setScene(new Scene(root, 600, 465));
         stage.setResizable(false);
         stage.show();

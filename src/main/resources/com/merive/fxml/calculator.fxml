@@ -169,7 +169,7 @@
         </Button>
         <ImageView fitHeight="33.0" fitWidth="33.0" layoutX="134.0" layoutY="11.0" pickOnBounds="true"
                    preserveRatio="true">
-            <Image url="@../icons/calculator_icon.png"/>
+            <Image url="@../icons/calculator.png"/>
         </ImageView>
         <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="-3.0" prefHeight="62.0"
                prefWidth="102.0" text="Calculator" textFill="#bbe1fa">

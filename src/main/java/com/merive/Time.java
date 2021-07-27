@@ -19,7 +19,7 @@ public class Time extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("fxml/time.fxml"));
         stage.initStyle(StageStyle.UNDECORATED);
         stage.setTitle("Time");
-        stage.getIcons().add(new Image(getClass().getResource("icons/time_icon.png").toString()));
+        stage.getIcons().add(new Image(getClass().getResource("icons/time.png").toString()));
         stage.setScene(new Scene(root, 600, 175));
         stage.setResizable(false);
         stage.show();
