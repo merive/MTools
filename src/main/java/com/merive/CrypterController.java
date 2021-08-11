@@ -9,7 +9,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
-public class RRCController {
+public class CrypterController {
     public Spinner<Integer> key;
     public TextArea message;
     public TextField result;

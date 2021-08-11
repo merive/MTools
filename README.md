@@ -11,7 +11,7 @@ ____
 * _Calculator:_ Simple calculator (_JavaFX_),
 * _Email:_ Spam utility (_JavaFX + JavaMail_),
 * _Time:_ Updating clock (_JavaFX_),
-* _RRC:_ Program for text encryption and decryption (_JavaFX_).
+* _Crypter:_ Program for text encryption and decryption (_JavaFX_).
 ____
 #### _Dependencies:_
 You should install:

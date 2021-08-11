@@ -10,10 +10,8 @@ public class Decrypt implements Chipper {
     public static HashMap<String, String> chipper(int seed) {
         Random r = new Random(seed);
         HashMap<String, String> alf = new HashMap<>();
-        ArrayList<String> alfLower = new ArrayList<>(Arrays.asList(("abcdefghijklmnopqrstuvwxyz" +
-                ".,!?&/:'-@#~ABCDEFGHIJKLMNOPQRSTUVWXUZ 1234567890_+=<>$%^*()`").split("")));
-        ArrayList<String> alfUpper = new ArrayList<>(Arrays.asList(("abcdefghijklmnopqrstuvwxyz" +
-                ".,!?&/:'-@#~ABCDEFGHIJKLMNOPQRSTUVWXUZ 1234567890_+=<>$%^*()`").split("")));
+        ArrayList<String> alfLower = new ArrayList<>(Arrays.asList(("abcdefghijklmnopqrstuvwxyz.,!?&/:'-@#~ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890_+=<>$%^*()\n").split("")));
+        ArrayList<String> alfUpper = new ArrayList<>(Arrays.asList(("abcdefghijklmnopqrstuvwxyz.,!?&/:'-@#~ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890_+=<>$%^*()\n").split("")));
         alfUpper.forEach((n) -> {
             int ran = r.nextInt(alfLower.size());
             alf.put(n, alfLower.get(ran));

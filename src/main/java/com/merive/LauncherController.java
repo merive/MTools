@@ -24,10 +24,10 @@ public class LauncherController implements Initializable {
     Label label;
 
     @FXML
-    Button startButton, noteButton, calculatorButton, emailButton, timeButton, RRCButton, exitButton, hideButton;
+    Button startButton, noteButton, calculatorButton, emailButton, timeButton, CrypterButton, exitButton, hideButton;
 
     @FXML
-    ImageView launcherImage, noteImage, calculatorImage, emailImage, timeImage, RRCImage;
+    ImageView launcherImage, noteImage, calculatorImage, emailImage, timeImage, CrypterImage;
 
     String selectedApplication;
     double x, y;
@@ -76,10 +76,10 @@ public class LauncherController implements Initializable {
                         }
                     });
                     break;
-                case "RRC":
+                case "Crypter":
                     Platform.runLater(() -> {
                         try {
-                            new RRC().start(new Stage());
+                            new Crypter().start(new Stage());
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
@@ -117,11 +117,11 @@ public class LauncherController implements Initializable {
         label.setText("Selected: Time");
     }
 
-    public void clickRRC() {
-        selectedApplication = "RRC";
+    public void clickCrypter() {
+        selectedApplication = "Crypter";
         resetImage();
-        RRCImage.setVisible(true);
-        label.setText("Selected: RRC");
+        CrypterImage.setVisible(true);
+        label.setText("Selected: Crypter");
     }
 
     public void exit() {
@@ -151,6 +151,6 @@ public class LauncherController implements Initializable {
         calculatorImage.setVisible(false);
         emailImage.setVisible(false);
         timeImage.setVisible(false);
-        RRCImage.setVisible(false);
+        CrypterImage.setVisible(false);
     }
 }

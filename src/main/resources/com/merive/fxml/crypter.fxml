@@ -5,10 +5,10 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="455.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.merive.RRCController">
+<AnchorPane prefHeight="455.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.merive.CrypterController">
     <Pane layoutY="50.0" prefHeight="350.0" prefWidth="600.0">
         <Pane layoutY="-4.0" prefHeight="406.0" prefWidth="600.0" style="-fx-background-color: #1a2a33; -fx-border-color: #bbe1fa; -fx-border-width: 4px;">
-            <TextArea fx:id="message" layoutX="15.0" layoutY="14.0" prefHeight="268.0" prefWidth="571.0" promptText="Write text" style="-fx-background-color: #1a2a33; -fx-border-color: #bbe1fa; -fx-border-width: 4px;" stylesheets="@../css/rrc.css" wrapText="true">
+            <TextArea fx:id="message" layoutX="15.0" layoutY="14.0" prefHeight="268.0" prefWidth="571.0" promptText="Write text" style="-fx-background-color: #1a2a33; -fx-border-color: #bbe1fa; -fx-border-width: 4px;" stylesheets="@../css/crypter.css" wrapText="true">
                 <font>
                     <Font name="Roboto Light" size="16.0" />
                 </font>
@@ -21,7 +21,7 @@
         </Pane>
     </Pane>
     <Pane layoutY="395.0" prefHeight="60.0" prefWidth="600.0" style="-fx-background-color: #1a2a33; -fx-border-color: #bbe1fa; -fx-border-width: 4px;">
-        <Spinner fx:id="key" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="120.0" promptText="Key" style="-fx-background-color: #1a2a33; -fx-border-color: #bbe1fa; -fx-border-width: 4px; -fx-text-fill: #bbe1fa;" stylesheets="@../css/rrc.css">
+        <Spinner fx:id="key" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="120.0" promptText="Key" style="-fx-background-color: #1a2a33; -fx-border-color: #bbe1fa; -fx-border-width: 4px; -fx-text-fill: #bbe1fa;" stylesheets="@../css/crypter.css">
             <valueFactory>
                 <SpinnerValueFactory.IntegerSpinnerValueFactory max="2147483646" min="0" />
             </valueFactory>
@@ -45,9 +45,9 @@
             </graphic>
         </Button>
         <ImageView fitHeight="33.0" fitWidth="33.0" layoutX="284.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
-            <Image url="@../icons/rrc.png" />
+            <Image url="@../icons/crypter.png" />
         </ImageView>
-        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="-3.0" prefHeight="62.0" prefWidth="74.0" text="RRC" textFill="#bbe1fa">
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="-3.0" prefHeight="62.0" prefWidth="74.0" text="Crypter" textFill="#bbe1fa">
             <font>
                 <Font name="Roboto Light" size="20.0" />
             </font>

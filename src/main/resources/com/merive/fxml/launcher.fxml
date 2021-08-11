@@ -39,9 +39,9 @@
                        pickOnBounds="true" preserveRatio="true" visible="false">
                 <Image url="@../icons/time.png"/>
             </ImageView>
-            <ImageView fx:id="RRCImage" fitHeight="200.0" fitWidth="200.0" layoutX="193.0" layoutY="59.0"
+            <ImageView fx:id="CrypterImage" fitHeight="200.0" fitWidth="200.0" layoutX="193.0" layoutY="59.0"
                        pickOnBounds="true" preserveRatio="true" visible="false">
-                <Image url="@../icons/rrc.png"/>
+                <Image url="@../icons/crypter.png"/>
             </ImageView>
         </Pane>
         <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="214.0" layoutY="14.0" prefHeight="62.0"
@@ -84,10 +84,10 @@
                     <Font name="Roboto Light" size="24.0"/>
                 </font>
             </Button>
-            <Button fx:id="RRCButton" alignment="CENTER" contentDisplay="CENTER" layoutX="13.0" layoutY="414.0"
-                    mnemonicParsing="false" onAction="#clickRRC" prefHeight="62.0" prefWidth="174.0"
+            <Button fx:id="CrypterButton" alignment="CENTER" contentDisplay="CENTER" layoutX="13.0" layoutY="414.0"
+                    mnemonicParsing="false" onAction="#clickCrypter" prefHeight="62.0" prefWidth="174.0"
                     style="-fx-background-color: #1a2a33; -fx-border-color: #bbe1fa; -fx-border-width: 4px;"
-                    stylesheets="@../css/launcher.css" text="RRC" textFill="#bbe1fa">
+                    stylesheets="@../css/launcher.css" text="Crypter" textFill="#bbe1fa">
                 <font>
                     <Font name="Roboto Light" size="24.0"/>
                 </font>
